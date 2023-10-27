@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Southbridge Computers</title>
+	<meta charset="utf-8">
+	<link href="southbridge.css" rel="stylesheet">
+	<style>
+
+		#image-col h3 {
+			padding: 5%;
+		}
+		
+		.service {
+			padding-top: 25px;
+			padding-left: 5px;
+			padding-right: 8px;
+		}
+		
+		.label {
+			padding: 5%;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+
+			<h1><a href="index.html">Southbridge Computers Co.</a></h1>
+
+		</header>
+
+		<nav>
+
+			<a href="index.html">Home</a> &nbsp;
+			<a href="contact.html">Contact Form</a> &nbsp;
+			<a href="services.html">Our Services</a> &nbsp;
+			<a href="https://www.pcpartpicker.com/list/">Builder</a>
+
+		</nav>
+		<a href="contactl.html"><img src="images/light.png" width=88 height=64 alt="Light Mode"></a>
+		<div id="image-col">
+
+			<h3>Copy your PCPartPicker List Here!</h3>
+			<a href="https://pcpartpicker.com/list/"><img src="images/link.png" width=340 height=155 alt="Copy Link from the Top of the Page"></a>
+
+			<h3>Contact us on Discord!</h3>
+			<a href="https://app.discord.com"><img src="images/discord.png" width=258 height=200 alt="Discord Logo"></a>
+
+			<h3>Shoot us an Email!</h3>
+			<a href="mailto:southbridgeco@proton.me"><img src="images/email.png" width=260 height=260 alt="Email Icon"></a>
+
+		</div>
+		<main>
+
+			<h1>Contact Us Below to Request a Service!</h1>
+			<h3>You may choose to include a PCPartPicker list, if you are requesting a build or an upgrade.</h3>
+			<small><i>Fields marked with an (*) are required</i></small>
+
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php"><br>
+
+				<div class="fine">Share your Contact Information here</div><br>
+
+				<label for="First">* First Name</label>
+				<input type="text" id="First" name="First" required>
+
+				<label for="Last">* Last Name</label>
+				<input type="text" id="Last" name="Last" required>
+				
+				<div class="fine">* You must choose to share either your Email Address or Discord</div><br>
+
+				<label for="Email">Email</label>
+				<input type="email" id="Email" name="Email">
+				
+				<label for="Discord">Discord</label>
+				<input type="text" id="Discord" name="Discord">
+
+				<div class="fine"> * What Services are you looking for?</div><br>
+
+				<table>					
+				<tr>
+
+					<td class="label">New Build</td>
+					<td class="service"><input type="radio" id="ServiceBuild" name="Service" value="Build" required></td>
+
+				</tr>
+				<tr>
+
+					<td class="label">Upgrade</td>
+					<td class="service"><input type="radio" id="ServiceUpgrade" name="Service" value="Upgrade" required></td>
+				
+				</tr>
+				<tr>
+
+					<td class="label">Cleaning</td>
+					<td class="service"><input type="radio" id="ServiceClean" name="Service" value="Clean" required></td>
+				
+				</tr>
+				</table>
+				<div class="fine">Paste your PCPartPicker list here</div><br>
+
+				<label for="List">PCPart Link</label>
+				<input type="url" id="List" name="List">
+
+				<div class="fine">Make any special requests here</div><br>
+
+				<label for="Requests">Special Requests</label>
+				<textarea id="Requests" name="Requests" rows="2" cols="30"></textarea>
+
+				<input type="submit">
+				
+			</form>
+
+			<img src="images/contactus.png" width=200 height=190 alt="example of a Desktop PC">
+
+			<div id="contact">
+				<table>
+				<tr>
+
+					<th>Contact Us!</th>
+					<th>Address</th>
+
+				</tr>
+				<tr>
+
+					<td><a href="https://app.discord.com">Discord</a></td>
+					<td>@SouthbridgeCo</td>
+
+				</tr>
+				<tr>
+
+					<td><a href="https://www.twitter.com">Twitter</a></td>
+					<td>@SouthbridgeCo</td>
+
+				</tr>
+				<tr>
+
+					<td><a href="tel:2484345508"> Phone</a></td>
+					<td>(248) 434-5508</td>
+
+				</tr>
+				<tr>
+
+					<td><a href="mailto:southbridgeco@proton.me">Email</a></td>
+					<td>southbridgeco@proton.me</td>
+
+				</tr>
+				<tr>
+					
+					<td><a href="https://maps.app.goo.gl/YpcLbmJwSbTYYiP8A">Local Address</a></td>
+					<td>S. Ogden UT, 84403</td>
+
+				</tr>
+				</table>
+			</div>
+		</main>
+		<footer>
+
+			Copyright &copy; 2023 Southbridge Computers Co.<br>
+			'Builder' is property of pcpartpicker.com and has no relation to Southbridge Computers Co.
+
+		</footer>
+	</div>
+</body>
+
+</html>
